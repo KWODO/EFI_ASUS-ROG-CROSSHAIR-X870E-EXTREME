@@ -71,14 +71,14 @@ KF552C40BBK-64 (2x)
 ----------------------------------------------------------------------------------------------------------------------
 PCI EXPRESS CARDS:
 ----------------------------------------------------------------------------------------------------------------------
-Sapphire TOXIC AMD Radeon RX 6950 XT Limited Edition 16 GB
+Sapphire TOXIC AMD Radeon RX 6950 XT Limited Edition 16 GB (VEN_1002&DEV_73A5)
 √ (macOS Ventura/Sequoia) (whatevergreen.kext + Device Properties GPU-SPOOF)
 
 PCIe-Slot1 (PCIEX16(G5)_1 (A))
 
 
 ----------------------------------------------------------------------------------------------------------------------
-Broadcom BCM94360CD
+Broadcom BCM94360CD (VEN_14E4&DEV_43A0)
 √ (macOS Ventura: native)
 √ (macOS Sequoia: OCLP)
 
