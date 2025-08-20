@@ -35,6 +35,8 @@ X (not supported in macOS) **(removed from mainboard)**
 1x Internal USB 2.0 Port for Bluetooth `WIFI-Module (15)`<br/>
 1x Internal USB 2.0 Port for USB Audio `Audio (6)(16)`<br/>
 
+![https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/main/UTBUSBMap_ROG-X870E-X.png](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/UTBUSBMap_ROG-X870E-X.png)
+
 ----------------------------------------------------------------------------------------------------------------------
 ## CPU:
 AMD Ryzen 9 7950X 4.5 GHz AM5*¹
