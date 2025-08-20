@@ -26,6 +26,7 @@ X (not supported in macOS) **(removed from mainboard)**
 
 ----------------------------------------------------------------------------------------------------------------------
 ## USB-MAPPING:
+
 √ (macOS Ventura/Sequoia) (USBToolBox.kext + UTBMap_ROG-X870E-X.kext) or (USBMap_ROG-X870E-X.kext)<br/>
 
 1x Front USB Type-C Port with switch (USB3.2) `U20G_C6 (1)`<br/>
@@ -36,6 +37,9 @@ X (not supported in macOS) **(removed from mainboard)**
 1x Internal USB 2.0 Port for USB Audio `Audio (6)(16)`<br/>
 
 ![https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/main/UTBUSBMap_ROG-X870E-X.png](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/UTBUSBMap_ROG-X870E-X.png)
+
+ASMedia USB4 (ASM4242)<br/>
+X (not supported in macOS)
 
 ----------------------------------------------------------------------------------------------------------------------
 ## CPU:
