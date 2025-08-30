@@ -9,6 +9,8 @@ Link to the manufacturer's bios & firmware page [here](https://rog.asus.com/moth
 :white_check_mark: (macOS Ventura/Sequoia) *(OpenCore AMD-Patches + ACPI-Patches by CorpGhost)*
 
 ### Version 1605 MOD (2025/07/22)<br/>
+ASUS-ROG-CH-X870E-X-BIOS-1605-MOD.CAP.zip [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ASUS-ROG-CH-X870E-X-BIOS-1605-MOD.CAP.zip)
+
 Removed the ASUS ROG Boot Splash Screen / replaced with a plain/black one<br/>
 Link to Reddit Guide page [here](https://www.reddit.com/r/pcmasterrace/comments/nl5ood/guide_how_to_set_a_custom_boot_logo_on_a_modern/)
 
