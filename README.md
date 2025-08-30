@@ -110,7 +110,10 @@ PCIe-Slot1 `PCIEX16(G5)_1 (A)`
 M.2 NGFF Slot `M.2(WIFI)`<br/>
 
 NGFF A+E Key to miniPCIe Adapter with 30cm FPC-Cable extension<br/>
-miniPCIe WiFi 12+6Pin Adapter for Broadcom
+![https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/M2-NGFF_miniPCIe_AdapterCard-Extension.png](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/M2-NGFF_miniPCIe_AdapterCard-Extension.png)
+
+miniPCIe WiFi 12+6Pin Adapter for Broadcom<br/>
+![https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/miniPCIe_BCM94630_AdapterCard.png](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/miniPCIe_BCM94630_AdapterCard.png)
 
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>BOOTLOADER:</ins>
