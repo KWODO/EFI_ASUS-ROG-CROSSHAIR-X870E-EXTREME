@@ -6,15 +6,11 @@ Link to the manufacturer's page [here](https://rog.asus.com/motherboards/rog-cro
 ### Version 1605 (2025/07/22)<br/>
 Link to the manufacturer's bios & firmware page [here](https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-extreme/helpdesk_bios/)
 
-ACPI-Patches_ASUS-ROG-CH-X870E-X_BIOS-1605_by-CorpGhost.zip [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ACPI-Patches_ASUS-ROG-CH-X870E-X_BIOS-1605_by-CorpGhost.zip)
-
 :white_check_mark: (macOS Ventura/Sequoia) *(OpenCore AMD-Patches + ACPI-Patches by CorpGhost)*
 
 ### Version 1605 MOD (2025/07/22)<br/>
 Removed the ASUS ROG Boot Splash Screen / replaced with a plain/black one<br/>
 Link to Reddit Guide page [here](https://www.reddit.com/r/pcmasterrace/comments/nl5ood/guide_how_to_set_a_custom_boot_logo_on_a_modern/)
-
-ASUS-ROG-CH-X870E-X-BIOS-1605-MOD.CAP.zip [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ASUS-ROG-CH-X870E-X-BIOS-1605-MOD.CAP.zip)
 
 :white_check_mark: (macOS Ventura/Sequoia) *(OpenCore AMD-Patches + ACPI-Patches by CorpGhost)*
 
@@ -119,7 +115,7 @@ miniPCIe WiFi 12+6Pin Adapter for Broadcom<br/>
 ## <ins>BOOTLOADER:</ins>
 ### OpenCore v1.0.5<br />
 
-OpenCore Bootloader _by Acidanthera_ [here](https://github.com/acidanthera/OpenCorePkg)<br />
+OpenCore-Debug EFI for ASUS ROG Crosshair X870E Extreme _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/OC105-DEBUG_ASUS-ROG-CH-X870E-X_V1.0_NoSN.zip)<br />
 
 ----------------------------------------------------------------------------------------------------------------------
 ### <ins>HINTS:</ins>
@@ -141,14 +137,19 @@ enable "FileVault on Broken Seal"-Patch in Kernel/Patch.
 ----------------------------------------------------------------------------------------------------------------------
 ### <ins>TOOLS I USED TO CREATE:</ins>
 
+OpenCore Bootloader _by Acidanthera_ [here](https://github.com/acidanthera/OpenCorePkg)<br />
+
 AMD-Vanilla-Patches _by CorpNewt_ [here](https://github.com/corpnewt/AMDVanillaPatches)<br />
 SSDTTime _by CorpNewt_ [here](https://github.com/corpnewt/SSDTTime)<br />
+ACPI-Patches for ASUS ROG Crosshair X870E Extreme BIOS 1605 _by CorpGhost_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ACPI-Patches_ASUS-ROG-CH-X870E-X_BIOS-1605_by-CorpGhost.zip)
+MmioDevirt _by CorpNewt_ [here](https://github.com/corpnewt/MmioDevirt)<br />
 
 USBToolBox _by Dhinak G_ [here](https://github.com/USBToolBox/tool)<br />
 
 Aquantia-macOS-Patches _by CaseySJ_ [here](https://github.com/CaseySJ/Aquantia-macOS-Patches)<br />
 
 UEFITool v0.28.0 _by LongSoft_ [here](https://github.com/LongSoft/UEFITool)<br />
+ASUS ROG Crosshair X870E Extreme BIOS 1605 MOD (CAP-File) _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ASUS-ROG-CH-X870E-X-BIOS-1605-MOD.CAP.zip)
 
 ----------------------------------------------------------------------------------------------------------------------
 ### <ins>USEFUL UTILITIES:</ins>
