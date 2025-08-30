@@ -6,13 +6,15 @@ Link to the manufacturer's page [here](https://rog.asus.com/motherboards/rog-cro
 ### Version 1605 (2025/07/22)<br/>
 Link to the manufacturer's bios & firmware page [here](https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-extreme/helpdesk_bios/)
 
+ACPI-Patches_ASUS-ROG-CH-X870E-X_BIOS-1605_by-CorpGhost.zip [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ACPI-Patches_ASUS-ROG-CH-X870E-X_BIOS-1605_by-CorpGhost.zip)
+
 :white_check_mark: (macOS Ventura/Sequoia) *(OpenCore AMD-Patches + ACPI-Patches by CorpGhost)*
 
 ### Version 1605 MOD (2025/07/22)<br/>
-ASUS-ROG-CH-X870E-X-BIOS-1605-MOD.CAP.zip [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ASUS-ROG-CH-X870E-X-BIOS-1605-MOD.CAP.zip)
-
 Removed the ASUS ROG Boot Splash Screen / replaced with a plain/black one<br/>
 Link to Reddit Guide page [here](https://www.reddit.com/r/pcmasterrace/comments/nl5ood/guide_how_to_set_a_custom_boot_logo_on_a_modern/)
+
+ASUS-ROG-CH-X870E-X-BIOS-1605-MOD.CAP.zip [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ASUS-ROG-CH-X870E-X-BIOS-1605-MOD.CAP.zip)
 
 :white_check_mark: (macOS Ventura/Sequoia) *(OpenCore AMD-Patches + ACPI-Patches by CorpGhost)*
 
@@ -42,7 +44,8 @@ Link to Reddit Guide page [here](https://www.reddit.com/r/pcmasterrace/comments/
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>USB-MAPPING:</ins>
 
-:white_check_mark: (macOS Ventura/Sequoia) (USBToolBox.kext + UTBMap_ASUS-ROG-CH-X870E-X.kext) or (USBMap_ASUS-ROG-CH-X870E-X.kext)<br/>
+:white_check_mark: (macOS Ventura/Sequoia)<br/>
+(USBToolBox.kext + UTBMap_ASUS-ROG-CH-X870E-X.kext) or (USBMap_ASUS-ROG-CH-X870E-X.kext)<br/>
 
 1x Front USB Type-C Port with switch (USB3.2)<br/>
 `U20G_C6 (1)`<br/>
@@ -63,6 +66,8 @@ Link to Reddit Guide page [here](https://www.reddit.com/r/pcmasterrace/comments/
 `Audio (6)(16)`<br/>
 
 ![https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/main/UTBUSBMap_ROG-X870E-X.png](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/UTBUSBMap_ROG-X870E-X.png)
+
+![[https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/main/UTBUSBMap_ROG-X870E-X.png](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/Hackintool-USB.png)](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/Hackintool-USB.png)
 
 ### ASMedia USB4 Host Controller (ASM4242)<br/>
 `VEN_1B21&DEV_2425`<br/>
@@ -116,18 +121,18 @@ OpenCore Bootloader _by Acidanthera_ [here](https://github.com/acidanthera/OpenC
 ----------------------------------------------------------------------------------------------------------------------
 ### <ins>HINTS:</ins>
 
-- Generate your own "System Serial Number" and "System UUID" for this EFI-Files before using.
-You can use OpenCoreConfigurator or similar.
-It can be found in PlatformInfo/DataHub-Generic-PlatformNVRAM.
+- Generate your own "System Serial Number" and "System UUID" for this EFI-Files before using.<br/>
+You can use OpenCoreConfigurator or similar.<br/>
+It can be found in PlatformInfo/DataHub-Generic-PlatformNVRAM.<br/>
 
 - Create your own "MmioWhitelist" using OpenCore-Debug + MmioDevirt _by CorpNewt_ [here](https://github.com/corpnewt/MmioDevirt)<br />
 Link to Dortania Guide page [here](https://dortania.github.io/OpenCore-Install-Guide/extras/kaslr-fix.html#so-what-is-kaslr)<br />
 Link to EliteMacx86 Guide page [here](https://elitemacx86.com/threads/how-to-fix-kaslr-slide-values.2037/)<br />
 
-- If you want to use supported RX 6000-Series GPU,
+- If you want to use supported RX 6000-Series GPU,<br/>
 remove Device Properties for GPU-Spoofing.
 
-- (OPTIONAL) If you want to use FileVault with OCLP-RootPatches (WIFI),
+- (OPTIONAL) If you want to use FileVault with OCLP-RootPatches (WIFI),<br/>
 enable "FileVault on Broken Seal"-Patch in Kernel/Patch.
 
 ----------------------------------------------------------------------------------------------------------------------
@@ -153,7 +158,10 @@ DevicePath _by CorpNewt_ [here](https://github.com/corpnewt/DevicePath)<br />
 GetUUID _by CorpNewt_ [here](https://github.com/corpnewt/GetUUID)<br />
 OCConfigCompare _by CorpNewt_ [here](https://github.com/corpnewt/OCConfigCompare)<br />
 GetUUID _by CorpNewt_ [here](https://github.com/corpnewt/ProperTree)<br />
+Hackintool _by benbaker76_ [here](https://github.com/benbaker76/Hackintool)<br />
+Hackintool Updated PCI-IDs for ASUS-ROG-CH-X870E-X _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/Hackintool_PCI-IDS-Update_ASUS-ROG-CH-X870E-X.zip)<br />
 
 ----------------------------------------------------------------------------------------------------------------------
-If anyone finds mistakes or has suggestions for improvement, please let me now, thank you :)
+If anyone finds mistakes or has suggestions for improvement,<br/>
+please let me now, thank you :)
 ----------------------------------------------------------------------------------------------------------------------
