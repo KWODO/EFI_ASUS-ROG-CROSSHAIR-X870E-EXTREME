@@ -2,95 +2,156 @@
 Link to the manufacturer's page [here](https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-extreme/)
 
 ----------------------------------------------------------------------------------------------------------------------
-This OpenCore-EFI works with macOS Ventura & macOS Sequoia<br/>
-*(not tested with macOS Sonoma)*
+## <ins>BIOS:</ins>
+### Version 1605 (2025/07/22)<br/>
+Link to the manufacturer's bios & firmware page [here](https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-extreme/helpdesk_bios/)
+
+:white_check_mark: (macOS Ventura/Sequoia) *(OpenCore AMD-Patches + ACPI-Patches by CorpGhost)*
+
+### Version 1605 MOD (2025/07/22)<br/>
+Removed the ASUS ROG Boot Splash Screen / replaced with a plain/black one<br/>
+Link to Reddit Guide page [here](https://www.reddit.com/r/pcmasterrace/comments/nl5ood/guide_how_to_set_a_custom_boot_logo_on_a_modern/)
+
+:white_check_mark: (macOS Ventura/Sequoia) *(OpenCore AMD-Patches + ACPI-Patches by CorpGhost)*
 
 ----------------------------------------------------------------------------------------------------------------------
-## AUDIO:
-Realtek SupremeFX USB Audio (ALC4082) `VID_0B05&PID_1B7C`<br />
-X (OpenCore: AudioDxe.efi) *(USB-Audio not supported)*<br />
-√ (macOS Ventura/Sequoia: native) `rear: spdif-out, line-out, mic-in` `front: line-out, mic-in`
+## <ins>AUDIO:</ins>
+### Realtek SupremeFX USB Audio (ALC4082)<br/>
+`VID_0B05&PID_1B7C`<br />
+
+:x: (OpenCore: AudioDxe.efi) *(USB-Audio not supported)*<br />
+:white_check_mark: (macOS Ventura/Sequoia: native) `rear: spdif-out, line-out, mic-in` `front: line-out, mic-in`
 
 ----------------------------------------------------------------------------------------------------------------------
-## ETHERNET:
-Realtek 5Gbit Network Adapter (RTL8126)<br />
-X (not supported in macOS) **(Disabled in BIOS)**
+## <ins>ETHERNET:</ins>
+### Realtek 5Gbit Network Adapter (RTL8126)<br />
+:x: (not supported in macOS) **(Disabled in BIOS)**
 
-Aquantia/Marvell AQC113CS FastLinQ Edge 10Gbit Network Adapter `VEN_1D6A&DEV_04C0`<br />
-√ (macOS Ventura/Sequoia: native)
+### Aquantia/Marvell AQC113CS FastLinQ Edge 10Gbit Network Adapter<br/>
+`VEN_1D6A&DEV_04C0`<br />
 
-----------------------------------------------------------------------------------------------------------------------
-## WIFI:
-MediaTek Wi-Fi 7 BT5.3 (MT7927)<br/>
-X (not supported in macOS) **(removed from mainboard)**
+:white_check_mark: (macOS Ventura/Sequoia) *(OpenCore Kernel-Quirk + Kernel-Patches "Set 1")*
 
 ----------------------------------------------------------------------------------------------------------------------
-## USB-MAPPING:
+## <ins>WIFI:</ins>
+### MediaTek Wi-Fi 7 BT5.3 (MT7927)<br/>
+:x: (not supported in macOS) **(removed from mainboard)**
 
-√ (macOS Ventura/Sequoia) (USBToolBox.kext + UTBMap_ROG-X870E-X.kext) or (USBMap_ROG-X870E-X.kext)<br/>
+----------------------------------------------------------------------------------------------------------------------
+## <ins>USB-MAPPING:</ins>
 
-1x Front USB Type-C Port with switch (USB3.2) `U20G_C6 (1)`<br/>
-4x Front USB Type-A Ports (USB3.0) `U5G_E1234 (18)`<br/>
-2x Rear USB Type-C Port with switch (USB3.1) `U10G_C23/U10G_C22 (14)`<br/>
-8x Rear USB Type-A Ports (USB2.0) `U10G_3/U10G_4/U10G_18 (2)` `U10G_19 (11)` `U10G_20 (13)` `U10G_9/U10G_8/U10G_21 (5)`<br/>
-1x Internal USB 2.0 Port for Bluetooth `WIFI-Module (15)`<br/>
-1x Internal USB 2.0 Port for USB Audio `Audio (6)(16)`<br/>
+:white_check_mark: (macOS Ventura/Sequoia) (USBToolBox.kext + UTBMap_ASUS-ROG-CH-X870E-X.kext) or (USBMap_ASUS-ROG-CH-X870E-X.kext)<br/>
+
+1x Front USB Type-C Port with switch (USB3.2)<br/>
+`U20G_C6 (1)`<br/>
+
+4x Front USB Type-A Ports (USB3.0)<br/>
+`U5G_E1234 (18)`<br/>
+
+2x Rear USB Type-C Port with switch (USB3.1)<br/>
+`U10G_C23/U10G_C22 (14)`<br/>
+
+8x Rear USB Type-A Ports (USB2.0)<br/>
+`U10G_3/U10G_4/U10G_18 (2)` `U10G_19 (11)` `U10G_20 (13)` `U10G_9/U10G_8/U10G_21 (5)`<br/>
+
+1x Internal USB 2.0 Port for Bluetooth<br/>
+`WIFI-Module (15)`<br/>
+
+1x Internal USB 2.0 Port for USB Audio<br/>
+`Audio (6)(16)`<br/>
 
 ![https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/main/UTBUSBMap_ROG-X870E-X.png](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/UTBUSBMap_ROG-X870E-X.png)
 
-ASMedia USB4 (ASM4242)<br/>
-X (not supported in macOS)
+### ASMedia USB4 Host Controller (ASM4242)<br/>
+`VEN_1B21&DEV_2425`<br/>
+
+:x: (not supported in macOS)
 
 ----------------------------------------------------------------------------------------------------------------------
-## CPU:
-AMD Ryzen 9 7950X 4.5 GHz AM5*¹
+## <ins>CPU:</ins>
+### AMD Ryzen 9 7950X 4.5 GHz AM5*¹
 
 iGPU AMD Radeon Graphics<br/>
-X **(disabled in BIOS)**
+:x: (not supported in macOS) **(disabled in BIOS)**
 
 *¹ CPU is set to ECO-Mode (maxed at 105W instead of 170W) (optional BIOS setting)
 
 ----------------------------------------------------------------------------------------------------------------------
-## RAM:
-Kingston FURY Beast DDR5-5200 MHz 288-Pin 128 GB Kit (4 x 32 GB)
+## <ins>RAM:</ins>
+### Kingston FURY Beast DDR5-5200 MHz 288-Pin 128 GB Kit (4 x 32 GB)
 
 KF552C40BBK-64 (2x)
 
 (Default (JEDEC) configuration for 4 modules in dual channel running @ DDR5-3600 MHz)
 
 ----------------------------------------------------------------------------------------------------------------------
-## PCI EXPRESS CARDS:
-Sapphire TOXIC AMD Radeon RX 6950 XT Limited Edition 16 GB `VEN_1002&DEV_73A5`<br/>
-√ (macOS Ventura/Sequoia) *(whatevergreen.kext + Device Properties GPU-SPOOF)*
+
+## <ins>PCI EXPRESS CARDS:</ins>
+### Sapphire TOXIC AMD Radeon RX 6950 XT Limited Edition 16 GB<br/>
+`VEN_1002&DEV_73A5`<br/>
+
+:white_check_mark: (macOS Ventura/Sequoia) *(whatevergreen.kext + Device Properties GPU-SPOOF)*
 
 PCIe-Slot1 `PCIEX16(G5)_1 (A)`
 
-Broadcom BCM94360CD `VEN_14E4&DEV_43A0`<br/>
-√ (macOS Ventura: native)<br/>
-√ (macOS Sequoia: OCLP)
+### Broadcom BCM94360CD 802.11ac Wireless Network Adapter with Bluetooth 4.0<br/>
+`VEN_14E4&DEV_43A0`<br/>
 
-M.2 NGFF Slot `WIFI-Module (15)`<br/>
+:white_check_mark: (macOS Ventura: native)<br/>
+:white_check_mark: (macOS Sequoia: OCLP)
+
+M.2 NGFF Slot `M.2(WIFI)`<br/>
 
 NGFF A+E Key to miniPCIe Adapter with 30cm FPC-Cable extension<br/>
 miniPCIe WiFi 12+6Pin Adapter for Broadcom
 
 ----------------------------------------------------------------------------------------------------------------------
-## BOOTLOADER:
+## <ins>BOOTLOADER:</ins>
+### OpenCore v1.0.5<br />
 
-OpenCore v1.0.5
+OpenCore Bootloader _by Acidanthera_ [here](https://github.com/acidanthera/OpenCorePkg)<br />
 
 ----------------------------------------------------------------------------------------------------------------------
-### HINTS:
+### <ins>HINTS:</ins>
 
--Generate your own "System Serial Number" and "System UUID" for this EFI-Files before using.
+- Generate your own "System Serial Number" and "System UUID" for this EFI-Files before using.
 You can use OpenCoreConfigurator or similar.
 It can be found in PlatformInfo/DataHub-Generic-PlatformNVRAM.
 
--If you want to use FileVault with OCLP-RootPatches (WIFI),
+- Create your own "MmioWhitelist" using OpenCore-Debug + MmioDevirt _by CorpNewt_ [here](https://github.com/corpnewt/MmioDevirt)<br />
+Link to Dortania Guide page [here](https://dortania.github.io/OpenCore-Install-Guide/extras/kaslr-fix.html#so-what-is-kaslr)<br />
+Link to EliteMacx86 Guide page [here](https://elitemacx86.com/threads/how-to-fix-kaslr-slide-values.2037/)<br />
+
+- If you want to use supported RX 6000-Series GPU,
+remove Device Properties for GPU-Spoofing.
+
+- (OPTIONAL) If you want to use FileVault with OCLP-RootPatches (WIFI),
 enable "FileVault on Broken Seal"-Patch in Kernel/Patch.
 
--If you want to use supported RX 6000-Series GPU,
-remove Device Properties for GPU-Spoofing.
+----------------------------------------------------------------------------------------------------------------------
+### <ins>TOOLS I USED TO CREATE:</ins>
+
+AMD-Vanilla-Patches _by CorpNewt_ [here](https://github.com/corpnewt/AMDVanillaPatches)<br />
+SSDTTime _by CorpNewt_ [here](https://github.com/corpnewt/SSDTTime)<br />
+
+USBToolBox _by Dhinak G_ [here](https://github.com/USBToolBox/tool)<br />
+
+Aquantia-macOS-Patches _by CaseySJ_ [here](https://github.com/CaseySJ/Aquantia-macOS-Patches)<br />
+
+UEFITool v0.28.0 _by LongSoft_ [here](https://github.com/LongSoft/UEFITool)<br />
+
+----------------------------------------------------------------------------------------------------------------------
+### <ins>USEFUL UTILITIES:</ins>
+
+CheckPCI _by CorpNewt_ [here](https://github.com/corpnewt/CheckPCI)<br />
+CheckGPU _by CorpNewt_ [here](https://github.com/corpnewt/CheckGPU)<br />
+CheckAudio _by CorpNewt_ [here](https://github.com/corpnewt/CheckAudio)<br />
+LogCheck _by CorpNewt_ [here](https://github.com/corpnewt/LogCheck)<br />
+DevicePath _by CorpNewt_ [here](https://github.com/corpnewt/DevicePath)<br />
+GetUUID _by CorpNewt_ [here](https://github.com/corpnewt/GetUUID)<br />
+OCConfigCompare _by CorpNewt_ [here](https://github.com/corpnewt/OCConfigCompare)<br />
+GetUUID _by CorpNewt_ [here](https://github.com/corpnewt/ProperTree)<br />
 
 ----------------------------------------------------------------------------------------------------------------------
 If anyone finds mistakes or has suggestions for improvement, please let me now, thank you :)
+----------------------------------------------------------------------------------------------------------------------
