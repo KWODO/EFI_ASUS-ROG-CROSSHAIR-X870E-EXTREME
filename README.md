@@ -1,22 +1,23 @@
-# Hackintosh EFI for ASUS ROG Crosshair X870E Extreme
+# Hackintosh EFI for ASUS ROG CROSSHAIR X870E EXTREME
 Link to the manufacturer's page [here](https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-extreme/)
 
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>BIOS:</ins>
 ### Version 1605 (2025/07/22)<br/>
-Link to the manufacturer's bios & firmware page [here](https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-extreme/helpdesk_bios/)
+Link to the manufacturer's BIOS & Firmware page [here](https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-extreme/helpdesk_bios/)
 
 :white_check_mark: (macOS Ventura/Sequoia) *(OpenCore AMD-Patches + ACPI-Patches by CorpGhost)*
 
 ### Version 1605 MOD (2025/07/22)<br/>
-Removed the ASUS ROG Boot Splash Screen / replaced with a plain/black one<br/>
+- Removed the ASUS ROG Boot Splash Screen / replaced with a plain/black one<br/>
+
 Link to Reddit Guide page [here](https://www.reddit.com/r/pcmasterrace/comments/nl5ood/guide_how_to_set_a_custom_boot_logo_on_a_modern/)
 
 :white_check_mark: (macOS Ventura/Sequoia) *(OpenCore AMD-Patches + ACPI-Patches by CorpGhost)*
 
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>AUDIO:</ins>
-### Realtek SupremeFX USB Audio (ALC4082)<br/>
+### Realtek SupremeFX OnBoard USB Audio (ALC4082)<br/>
 `VID_0B05&PID_1B7C`<br />
 
 :x: (OpenCore: AudioDxe.efi) *(USB-Audio not supported)*<br />
@@ -27,7 +28,7 @@ Link to Reddit Guide page [here](https://www.reddit.com/r/pcmasterrace/comments/
 ### Realtek 5Gbit Network Adapter (RTL8126)<br />
 :x: (not supported in macOS) **(Disabled in BIOS)**
 
-### Aquantia/Marvell AQC113CS FastLinQ Edge 10Gbit Network Adapter<br/>
+### Aquantia/Marvell FastLinQ Edge 10Gbit Network Adapter (AQC113CS)<br/>
 `VEN_1D6A&DEV_04C0`<br />
 
 :white_check_mark: (macOS Ventura/Sequoia) *(OpenCore Kernel-Quirk + Kernel-Patches "Set 1")*
