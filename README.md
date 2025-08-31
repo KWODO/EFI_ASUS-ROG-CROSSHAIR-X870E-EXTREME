@@ -141,7 +141,7 @@ OpenCore Bootloader _by Acidanthera_ [here](https://github.com/acidanthera/OpenC
 
 AMD-Vanilla-Patches _by CorpNewt_ [here](https://github.com/corpnewt/AMDVanillaPatches)<br />
 SSDTTime _by CorpNewt_ [here](https://github.com/corpnewt/SSDTTime)<br />
-ACPI-Patches for ASUS ROG Crosshair X870E Extreme BIOS 1605 _by CorpGhost_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ACPI-Patches_ASUS-ROG-CH-X870E-X_BIOS-1605_by-CorpGhost.zip)
+ACPI-Patches for ASUS ROG Crosshair X870E Extreme BIOS 1605 _by CorpGhost_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ACPI-Patches_ASUS-ROG-CH-X870E-X_BIOS-1605_by-CorpGhost.zip)<br />
 MmioDevirt _by CorpNewt_ [here](https://github.com/corpnewt/MmioDevirt)<br />
 
 USBToolBox _by Dhinak G_ [here](https://github.com/USBToolBox/tool)<br />
