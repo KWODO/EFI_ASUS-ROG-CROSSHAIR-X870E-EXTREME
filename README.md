@@ -168,7 +168,7 @@ LogCheck _by CorpNewt_ [here](https://github.com/corpnewt/LogCheck)<br />
 DevicePath _by CorpNewt_ [here](https://github.com/corpnewt/DevicePath)<br />
 GetUUID _by CorpNewt_ [here](https://github.com/corpnewt/GetUUID)<br />
 OCConfigCompare _by CorpNewt_ [here](https://github.com/corpnewt/OCConfigCompare)<br />
-GetUUID _by CorpNewt_ [here](https://github.com/corpnewt/ProperTree)<br />
+ProperTree _by CorpNewt_ [here](https://github.com/corpnewt/ProperTree)<br />
 Hackintool _by benbaker76_ [here](https://github.com/benbaker76/Hackintool)<br />
 Hackintool Updated PCI-IDs for ASUS ROG CROSSHAIR X870E EXTREME _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/Hackintool_PCI-IDS-Update_ASUS-ROG-CH-X870E-X.zip)<br />
 
