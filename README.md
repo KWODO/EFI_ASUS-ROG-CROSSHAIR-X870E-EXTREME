@@ -116,7 +116,7 @@ miniPCIe WiFi 12+6Pin Adapter for Broadcom<br/>
 ## <ins>BOOTLOADER:</ins>
 ### OpenCore v1.0.5<br />
 
-OpenCore-Debug EFI for ASUS ROG Crosshair X870E Extreme _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/OC105-DEBUG_ASUS-ROG-CH-X870E-X_V1.0_NoSN.zip)<br />
+OpenCore-Debug EFI for ASUS ROG CROSSHAIR X870E EXTREME _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/OC105-DEBUG_ASUS-ROG-CH-X870E-X_V1.0_NoSN.zip)<br />
 
 ----------------------------------------------------------------------------------------------------------------------
 ### <ins>HINTS:</ins>
@@ -141,16 +141,21 @@ enable "FileVault on Broken Seal"-Patch in Kernel/Patch.
 OpenCore Bootloader _by Acidanthera_ [here](https://github.com/acidanthera/OpenCorePkg)<br />
 
 AMD-Vanilla-Patches _by CorpNewt_ [here](https://github.com/corpnewt/AMDVanillaPatches)<br />
+
 SSDTTime _by CorpNewt_ [here](https://github.com/corpnewt/SSDTTime)<br />
-ACPI-Patches for ASUS ROG Crosshair X870E Extreme BIOS 1605 _by CorpGhost_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ACPI-Patches_ASUS-ROG-CH-X870E-X_BIOS-1605_by-CorpGhost.zip)<br />
+<sup>SSDTTime Results for ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1605 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/SSDTTime_Results_ASUS-ROG-CH-X870E-X_BIOS-1605.zip)</sup><br />
+
+ACPI-Patches for ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1605 _by CorpGhost_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ACPI-Patches_ASUS-ROG-CH-X870E-X_BIOS-1605_by-CorpGhost.zip)<br />
+
 MmioDevirt _by CorpNewt_ [here](https://github.com/corpnewt/MmioDevirt)<br />
 
 USBToolBox _by Dhinak G_ [here](https://github.com/USBToolBox/tool)<br />
+<sup>USBToolBox Settings+Mapping for ASUS ROG CROSSHAIR X870E EXTREME _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/USBToolBox-Settings-Mapping_ASUS-ROG-CH-X870E-X.zip)</sup><br />
 
 Aquantia-macOS-Patches _by CaseySJ_ [here](https://github.com/CaseySJ/Aquantia-macOS-Patches)<br />
 
 UEFITool v0.28.0 _by LongSoft_ [here](https://github.com/LongSoft/UEFITool)<br />
-ASUS ROG Crosshair X870E Extreme BIOS 1605 MOD (CAP-File) _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ASUS-ROG-CH-X870E-X-BIOS-1605-MOD.CAP.zip)
+ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1605 MOD (CAP-File) _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ASUS-ROG-CH-X870E-X-BIOS-1605-MOD.CAP.zip)
 
 ----------------------------------------------------------------------------------------------------------------------
 ### <ins>USEFUL UTILITIES:</ins>
@@ -164,7 +169,7 @@ GetUUID _by CorpNewt_ [here](https://github.com/corpnewt/GetUUID)<br />
 OCConfigCompare _by CorpNewt_ [here](https://github.com/corpnewt/OCConfigCompare)<br />
 GetUUID _by CorpNewt_ [here](https://github.com/corpnewt/ProperTree)<br />
 Hackintool _by benbaker76_ [here](https://github.com/benbaker76/Hackintool)<br />
-Hackintool Updated PCI-IDs for ASUS-ROG-CH-X870E-X _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/Hackintool_PCI-IDS-Update_ASUS-ROG-CH-X870E-X.zip)<br />
+Hackintool Updated PCI-IDs for ASUS ROG CROSSHAIR X870E EXTREME _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/Hackintool_PCI-IDS-Update_ASUS-ROG-CH-X870E-X.zip)<br />
 
 ----------------------------------------------------------------------------------------------------------------------
 If anyone finds mistakes or has suggestions for improvement,<br/>
