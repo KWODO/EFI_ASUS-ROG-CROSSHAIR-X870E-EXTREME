@@ -156,7 +156,7 @@ Aquantia-macOS-Patches _by CaseySJ_ [here](https://github.com/CaseySJ/Aquantia-m
 
 UEFITool v0.28.0 _by LongSoft_ [here](https://github.com/LongSoft/UEFITool)<br />
 ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1605 MOD (CAP-File) _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ASUS-ROG-CH-X870E-X-BIOS-1605-MOD.CAP.zip)<br />
-My BIOS-Settings (TXT + CMO-File) for BIOS 1605 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/BIOS-1605_Settings_KWODO_ASUS-ROG-CH-X870E-X.zip)<br />
+<sup>My BIOS-Settings (TXT + CMO-File) for BIOS 1605 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/BIOS-1605_Settings_KWODO_ASUS-ROG-CH-X870E-X.zip)</sup><br />
 
 ----------------------------------------------------------------------------------------------------------------------
 ### <ins>USEFUL UTILITIES:</ins>
@@ -171,6 +171,10 @@ OCConfigCompare _by CorpNewt_ [here](https://github.com/corpnewt/OCConfigCompare
 ProperTree _by CorpNewt_ [here](https://github.com/corpnewt/ProperTree)<br />
 Hackintool _by benbaker76_ [here](https://github.com/benbaker76/Hackintool)<br />
 Hackintool Updated PCI-IDs for ASUS ROG CROSSHAIR X870E EXTREME _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/Hackintool_PCI-IDS-Update_ASUS-ROG-CH-X870E-X.zip)<br />
+IORegistryExplorer _by vulgo_ [here](https://github.com/vulgo/IORegistryExplorer)<br />
+OCAuxiliaryTools OCAT _by ic005k_ [here](https://github.com/ic005k/OCAuxiliaryTools)<br />
+OpenCore Configurator _by mackie1000projects_ [here](https://mackie100projects.altervista.org/)<br />
+About-This-Hack _by 0xCUB3_ [here](https://github.com/2009-Nissan-Cube/About-This-Hack)<br />
 
 ----------------------------------------------------------------------------------------------------------------------
 If anyone finds mistakes or has suggestions for improvement,<br/>
