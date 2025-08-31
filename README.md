@@ -1,4 +1,4 @@
-# Hackintosh EFI for ASUS ROG CROSSHAIR X870E EXTREME
+# Hackintosh EFI for<br/>ASUS ROG CROSSHAIR X870E EXTREME
 Link to the manufacturer's page [here](https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-extreme/)
 
 ----------------------------------------------------------------------------------------------------------------------
