@@ -1,6 +1,8 @@
 # Hackintosh EFI for<br/>ASUS ROG CROSSHAIR X870E EXTREME
 Link to the manufacturer's page [here](https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-extreme/)
 
+![https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/main/UTBUSBMap_ROG-X870E-X.png](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ASUS-ROG-CH-X870E-X_MAINBOARD.png)
+
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>BIOS:</ins>
 ### Version 1605 (2025/07/22)<br/>
