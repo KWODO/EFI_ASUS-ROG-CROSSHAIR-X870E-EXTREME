@@ -13,7 +13,19 @@ Link to the manufacturer's BIOS & Firmware page [here](https://rog.asus.com/moth
 ### Version 1605 MOD (2025/07/22)<br/>
 - Removed the ASUS ROG Boot Splash Screen / replaced with a plain/black one<br/>
 
-Link to Reddit Guide page [here](https://www.reddit.com/r/pcmasterrace/comments/nl5ood/guide_how_to_set_a_custom_boot_logo_on_a_modern/)
+Guide:<br/>
+1.) Download UEFITool_0.28.0_win (https://github.com/LongSoft/UEFITool/releases), run UEFITool.exe<br/>
+2.) Ctrl+O (open), select BIOS file you hopefully already have somewhere ready<br/>
+3.) Ctrl+F (search), select tab labeled "GUID", input 7BB28B99-61BB-11D5-9A5D-0090273FC14D<br/>
+4.) Double-click on the first of three listed "7BB28B99-61BB-11D5-9A5D-0090273FC14D"<br/>
+5.) Press on plus sign next to 7BB28B99-61BB-11D5-9A5D-0090273FC14D, then again on another<br/>
+6.) Right click on "Raw section" line, "Extract body..." and save<br/>
+7.) Rename the .raw file to .bmp<br/>
+8.) Edit the image and save it<br/>
+9.) Rename the image extension to .raw<br/>
+10.) Right click on "Raw section" line, "Replace body..." and select the .raw file<br/>
+11.) Ctrl+S to save the BIOS<br/>
+12.) Done!<br/>
 
 :white_check_mark: (macOS Ventura/Sequoia) *(OpenCore AMD-Patches + ACPI-Patches by CorpGhost)*
 
