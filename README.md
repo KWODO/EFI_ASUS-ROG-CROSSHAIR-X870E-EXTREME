@@ -179,6 +179,7 @@ ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1715 MOD (CAP-File) _by KWODO_ [here](ht
 
 gibMacOS _by CorpNewt_ [here](https://github.com/corpnewt/gibMacOS)<br />
 gibMacRecovery _by CorpNewt_ [here](https://github.com/corpnewt/gibMacRecovery)<br />
+USB-Installer-Creator _by CorpNewt_ [here](https://github.com/corpnewt/USB-Installer-Creator)<br />
 GenSMBIOS _by CorpNewt_ [here](https://github.com/corpnewt/GenSMBIOS)<br />
 CheckPCI _by CorpNewt_ [here](https://github.com/corpnewt/CheckPCI)<br />
 CheckGPU _by CorpNewt_ [here](https://github.com/corpnewt/CheckGPU)<br />
