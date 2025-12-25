@@ -133,6 +133,22 @@ miniPCIe WiFi 12+6Pin Adapter for Broadcom<br/>
 OpenCore-Debug EFI for ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1605/1715 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/OC105-DEBUG_ASUS-ROG-CH-X870E-X_BIOS-1605-1715_V1.0_NoSN.zip)<br />
 
 ----------------------------------------------------------------------------------------------------------------------
+## <ins>Kernal Extensions:</ins>
+
+Lilu _by acidanthera_ [here](https://github.com/acidanthera/Lilu)<br />
+WhateverGreen _by acidanthera_ [here](https://github.com/acidanthera/WhateverGreen)<br />
+VirtualSMC _acidanthera_ [here](https://github.com/acidanthera/VirtualSMC)<br />
+FeatureUnlock _acidanthera_ [here](https://github.com/acidanthera/FeatureUnlock)<br />
+RestrictEvents _by acidanthera_ [here](https://github.com/acidanthera/RestrictEvents)<br />
+NVMeFix _by acidanthera_ [here](https://github.com/acidanthera/NVMeFix)<br />
+USBToolBox _by Dhinak G_ [here](https://github.com/USBToolBox/kext)<br />
+AppleMCEReporterDisabler _by XLNCs_ [here](https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip)<br />
+AMFIPass _by Dhinak G_ [here](https://github.com/kaoskinkae/AMFIPass)<br />
+IOSkywalkFamily (from macOS Sonoma 14.4<br />
+IO80211FamilyLegacy (from macOS Sonoma 14.4<br />
+SMCProcessorAMD _by macos86_ [here](https://github.com/macos86/SMCProcessorAMD) (only up to macOS Sonoma 14.x)<br />
+
+----------------------------------------------------------------------------------------------------------------------
 ### <ins>HINTS:</ins>
 
 - Generate your own "System Serial Number" and "System UUID" for this EFI-Files before using.<br/>
