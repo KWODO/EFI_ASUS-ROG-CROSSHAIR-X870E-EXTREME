@@ -6,14 +6,15 @@ Link to the manufacturer's page [here](https://rog.asus.com/motherboards/rog-cro
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>BIOS:</ins>
 ### Version 1605 (2025/07/22)<br/>
+### Version 1715 (2025/09/25)<br/>
 Link to the manufacturer's BIOS & Firmware page [here](https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-extreme/helpdesk_bios/)
 
 :white_check_mark: (macOS Ventura/Sequoia) *(OpenCore AMD-Patches + ACPI-Patches by CorpGhost)*
 
-### Version 1605 MOD (2025/07/22)<br/>
+### BIOS MOD<br/>
 - Removed the ASUS ROG Boot Splash Screen / replaced with a plain/black one<br/>
 
-Guide to modify Boot-Logo:<br/>
+Guide:<br/>
 1.) Download UEFITool_0.28.0_win, run UEFITool.exe<br/>
 2.) Ctrl+O (open), select BIOS file you hopefully already have somewhere ready<br/>
 3.) Ctrl+F (search), select tab labeled "GUID", input 7BB28B99-61BB-11D5-9A5D-0090273FC14D<br/>
@@ -27,8 +28,6 @@ Guide to modify Boot-Logo:<br/>
 11.) Right click on "Raw section" line, "Replace body..." and select the new Logo.raw file<br/>
 12.) Ctrl+S to save the BIOS<br/>
 13.) Done!<br/>
-
-:white_check_mark: (macOS Ventura/Sequoia) *(OpenCore AMD-Patches + ACPI-Patches by CorpGhost)*
 
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>AUDIO:</ins>
@@ -93,7 +92,7 @@ Guide to modify Boot-Logo:<br/>
 iGPU AMD Radeon Graphics<br/>
 :x: (not supported in macOS) **(disabled in BIOS)**
 
-*¹ CPU is set to ECO-Mode (maxed at 105W instead of 170W) (optional BIOS setting)
+*¹ CPU is set to PBO-Enhanced (Level 2 80°C 170W) (optional BIOS setting)
 
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>RAM:</ins>
@@ -170,8 +169,11 @@ USBToolBox _by Dhinak G_ [here](https://github.com/USBToolBox/tool)<br />
 Aquantia-macOS-Patches _by CaseySJ_ [here](https://github.com/CaseySJ/Aquantia-macOS-Patches)<br />
 
 UEFITool v0.28.0 _by LongSoft_ [here](https://github.com/LongSoft/UEFITool/releases/download/0.28.0/UEFITool_0.28.0_win32.zip)<br />
+
 ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1605 MOD (CAP-File) _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ASUS-ROG-CH-X870E-X-BIOS-1605-MOD.CAP.zip)<br />
 <sup>My BIOS-Settings (TXT + CMO-File) for BIOS 1605 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/BIOS-1605_Settings_KWODO_ASUS-ROG-CH-X870E-X.zip)</sup><br />
+ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1715 MOD (CAP-File) _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ASUS-ROG-CH-X870E-X-BIOS-1715-MOD.CAP.zip)<br />
+<sup>My BIOS-Settings (TXT + CMO-File) for BIOS 1715 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/BIOS-1715_Settings_KWODO_ASUS-ROG-CH-X870E-X.zip)</sup><br />
 
 ----------------------------------------------------------------------------------------------------------------------
 ### <ins>USEFUL UTILITIES:</ins>
