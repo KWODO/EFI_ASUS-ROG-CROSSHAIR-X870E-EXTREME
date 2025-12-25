@@ -177,6 +177,9 @@ ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1715 MOD (CAP-File) _by KWODO_ [here](ht
 ----------------------------------------------------------------------------------------------------------------------
 ### <ins>USEFUL UTILITIES:</ins>
 
+gibMacOS _by CorpNewt_ [here](https://github.com/corpnewt/gibMacOS)<br />
+gibMacRecovery _by CorpNewt_ [here](https://github.com/corpnewt/gibMacRecovery)<br />
+GenSMBIOS _by CorpNewt_ [here](https://github.com/corpnewt/GenSMBIOS)<br />
 CheckPCI _by CorpNewt_ [here](https://github.com/corpnewt/CheckPCI)<br />
 CheckGPU _by CorpNewt_ [here](https://github.com/corpnewt/CheckGPU)<br />
 CheckAudio _by CorpNewt_ [here](https://github.com/corpnewt/CheckAudio)<br />
@@ -185,9 +188,9 @@ DevicePath _by CorpNewt_ [here](https://github.com/corpnewt/DevicePath)<br />
 GetUUID _by CorpNewt_ [here](https://github.com/corpnewt/GetUUID)<br />
 OCConfigCompare _by CorpNewt_ [here](https://github.com/corpnewt/OCConfigCompare)<br />
 ProperTree _by CorpNewt_ [here](https://github.com/corpnewt/ProperTree)<br />
+IORegistryExplorer _by vulgo_ [here](https://github.com/vulgo/IORegistryExplorer)<br />
 Hackintool _by benbaker76_ [here](https://github.com/benbaker76/Hackintool)<br />
 Hackintool Updated PCI-IDs for ASUS ROG CROSSHAIR X870E EXTREME _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/Hackintool_PCI-IDS-Update_ASUS-ROG-CH-X870E-X.zip)<br />
-IORegistryExplorer _by vulgo_ [here](https://github.com/vulgo/IORegistryExplorer)<br />
 OCAuxiliaryTools OCAT _by ic005k_ [here](https://github.com/ic005k/OCAuxiliaryTools)<br />
 OpenCore Configurator _by mackie1000projects_ [here](https://mackie100projects.altervista.org/)<br />
 About-This-Hack _by 0xCUB3_ [here](https://github.com/2009-Nissan-Cube/About-This-Hack)<br />
