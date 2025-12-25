@@ -98,9 +98,9 @@ iGPU AMD Radeon Graphics<br/>
 ## <ins>RAM:</ins>
 ### Kingston FURY Beast DDR5-5200 MHz 288-Pin 128 GB Kit (4 x 32 GB)
 
-KF552C40BBK-64 (2x)
+KF552C40BBK4-128
 
-(Default (JEDEC) configuration for 4 modules in dual channel running @ DDR5-3600 MHz)
+(Default (JEDEC) configuration for 4 modules in dual channel running @ 3600 MHz / CL 30-29-29-58 / 1.10v)
 
 ----------------------------------------------------------------------------------------------------------------------
 
