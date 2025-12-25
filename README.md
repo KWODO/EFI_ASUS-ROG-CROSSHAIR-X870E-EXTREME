@@ -15,19 +15,19 @@ Link to the manufacturer's BIOS & Firmware page [here](https://rog.asus.com/moth
 - Removed the ASUS ROG Boot Splash Screen / replaced with a plain/black one<br/>
 
 Guide:<br/>
-1.) Download UEFITool_0.28.0_win, run UEFITool.exe<br/>
-2.) Ctrl+O (open), select BIOS file you hopefully already have somewhere ready<br/>
-3.) Ctrl+F (search), select tab labeled "GUID", input 7BB28B99-61BB-11D5-9A5D-0090273FC14D<br/>
-4.) Double-click on the first of three listed GUID pattern "7BB28B99-61BB-11D5-9A5D-0090273FC14D" in Messages<br/>
-5.) Press on plus sign next to "7BB28B99-61BB-11D5-9A5D-0090273FC14D" (File/Freeform/Logo.bmp)<br/>
-6.) Press on plus sign next to "EE4E5898-3914-4259-9D6E-DC7BD79403CF" (Section/GUID defined)<br/>
-7.) Right click on "Raw section" (Section/Raw) line, "Extract body..." and save it as Logo.raw<br/>
+1.) Download UEFITool_0.28.0 WIN/MAC, run UEFITool.exe/UEFITool.app<br/>
+2.) Open Image File (Ctrl+O/⌘+O), select BIOS file<br/>
+3.) Search (Ctrl+F/⌘+F), select tab labeled "GUID", input 7BB28B99-61BB-11D5-9A5D-0090273FC14D<br/>
+4.) Double-click on the line of GUID pattern in Messages "7BB28B99-61BB-11D5-9A5D-0090273FC14D"<br/>
+5.) Press on expand > "7BB28B99-61BB-11D5-9A5D-0090273FC14D" (File/Freeform/Logo.bmp)<br/>
+6.) Press on expand > "EE4E5898-3914-4259-9D6E-DC7BD79403CF" (Section/GUID defined)<br/>
+7.) Right click on "Raw section" line (Section/Raw), "Extract body..." and save it as Logo.raw<br/>
 8.) Rename the Logo.raw file to Logo.bmp<br/>
 9.) Edit the image and save it<br/>
 10.) Rename the image extension to .raw<br/>
 11.) Right click on "Raw section" line, "Replace body..." and select the new Logo.raw file<br/>
 12.) Ctrl+S to save the BIOS<br/>
-13.) Done!<br/>
+13.) Done! Flash your new modiefied BIOS.<br/>
 
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>AUDIO:</ins>
@@ -168,7 +168,7 @@ USBToolBox _by Dhinak G_ [here](https://github.com/USBToolBox/tool)<br />
 
 Aquantia-macOS-Patches _by CaseySJ_ [here](https://github.com/CaseySJ/Aquantia-macOS-Patches)<br />
 
-UEFITool v0.28.0 _by LongSoft_ [here](https://github.com/LongSoft/UEFITool/releases/download/0.28.0/UEFITool_0.28.0_win32.zip)<br />
+UEFITool v0.28.0 WIN/MAC _by LongSoft_ [here](https://github.com/LongSoft/UEFITool/releases/tag/0.28.0)<br />
 
 ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1605 MOD (CAP-File) _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ASUS-ROG-CH-X870E-X-BIOS-1605-MOD.CAP.zip)<br />
 ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1715 MOD (CAP-File) _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ASUS-ROG-CH-X870E-X-BIOS-1715-MOD.CAP.zip)<br />
