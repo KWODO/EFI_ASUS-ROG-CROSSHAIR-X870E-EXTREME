@@ -130,7 +130,7 @@ miniPCIe WiFi 12+6Pin Adapter for Broadcom<br/>
 ## <ins>BOOTLOADER:</ins>
 ### OpenCore v1.0.5<br />
 
-OpenCore-Debug EFI for ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1605 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/OC105-DEBUG_ASUS-ROG-CH-X870E-X_BIOS-1605_V1.0_NoSN.zip)<br />
+OpenCore-Debug EFI for ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1605/1715 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/OC105-DEBUG_ASUS-ROG-CH-X870E-X_BIOS-1605-1715_V1.0_NoSN.zip)<br />
 
 ----------------------------------------------------------------------------------------------------------------------
 ### <ins>HINTS:</ins>
@@ -159,7 +159,7 @@ AMD-Vanilla-Patches _by CorpNewt_ [here](https://github.com/corpnewt/AMDVanillaP
 SSDTTime _by CorpNewt_ [here](https://github.com/corpnewt/SSDTTime)<br />
 <sup>SSDTTime Results for ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1605 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/SSDTTime_Results_ASUS-ROG-CH-X870E-X_BIOS-1605.zip)</sup><br />
 
-ACPI-Patches for ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1605 _by CorpGhost_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ACPI-Patches_ASUS-ROG-CH-X870E-X_BIOS-1605_by-CorpGhost.zip)<br />
+ACPI-Patches for ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1605/1715 _by CorpGhost_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ACPI-Patches_ASUS-ROG-CH-X870E-X_BIOS-1605-1715_by-CorpGhost.zip)<br />
 
 MmioDevirt _by CorpNewt_ [here](https://github.com/corpnewt/MmioDevirt)<br />
 
@@ -171,9 +171,8 @@ Aquantia-macOS-Patches _by CaseySJ_ [here](https://github.com/CaseySJ/Aquantia-m
 UEFITool v0.28.0 _by LongSoft_ [here](https://github.com/LongSoft/UEFITool/releases/download/0.28.0/UEFITool_0.28.0_win32.zip)<br />
 
 ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1605 MOD (CAP-File) _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ASUS-ROG-CH-X870E-X-BIOS-1605-MOD.CAP.zip)<br />
-<sup>My BIOS-Settings (TXT + CMO-File) for BIOS 1605 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/BIOS-1605_Settings_KWODO_ASUS-ROG-CH-X870E-X.zip)</sup><br />
 ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1715 MOD (CAP-File) _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ASUS-ROG-CH-X870E-X-BIOS-1715-MOD.CAP.zip)<br />
-<sup>My BIOS-Settings (TXT + CMO-File) for BIOS 1715 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/BIOS-1715_Settings_KWODO_ASUS-ROG-CH-X870E-X.zip)</sup><br />
+<sup>My BIOS-Settings (TXT + CMO-File) for BIOS 1715 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/BIOS-1605-1715_Settings_KWODO_ASUS-ROG-CH-X870E-X.zip)</sup><br />
 
 ----------------------------------------------------------------------------------------------------------------------
 ### <ins>USEFUL UTILITIES:</ins>
