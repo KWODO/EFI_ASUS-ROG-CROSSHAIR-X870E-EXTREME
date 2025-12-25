@@ -14,7 +14,7 @@ Link to the manufacturer's BIOS & Firmware page [here](https://rog.asus.com/moth
 - Removed the ASUS ROG Boot Splash Screen / replaced with a plain/black one<br/>
 
 Guide:<br/>
-1.) Download UEFITool_0.28.0_win (https://github.com/LongSoft/UEFITool/releases), run UEFITool.exe<br/>
+1.) Download UEFITool_0.28.0_win, run UEFITool.exe<br/>
 2.) Ctrl+O (open), select BIOS file you hopefully already have somewhere ready<br/>
 3.) Ctrl+F (search), select tab labeled "GUID", input 7BB28B99-61BB-11D5-9A5D-0090273FC14D<br/>
 4.) Double-click on the first of three listed "7BB28B99-61BB-11D5-9A5D-0090273FC14D"<br/>
@@ -168,7 +168,7 @@ USBToolBox _by Dhinak G_ [here](https://github.com/USBToolBox/tool)<br />
 
 Aquantia-macOS-Patches _by CaseySJ_ [here](https://github.com/CaseySJ/Aquantia-macOS-Patches)<br />
 
-UEFITool v0.28.0 _by LongSoft_ [here](https://github.com/LongSoft/UEFITool)<br />
+UEFITool v0.28.0 _by LongSoft_ [here](https://github.com/LongSoft/UEFITool/releases/download/0.28.0/UEFITool_0.28.0_win32.zip)<br />
 ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1605 MOD (CAP-File) _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ASUS-ROG-CH-X870E-X-BIOS-1605-MOD.CAP.zip)<br />
 <sup>My BIOS-Settings (TXT + CMO-File) for BIOS 1605 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/BIOS-1605_Settings_KWODO_ASUS-ROG-CH-X870E-X.zip)</sup><br />
 
