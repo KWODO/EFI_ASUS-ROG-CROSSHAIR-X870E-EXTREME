@@ -133,7 +133,7 @@ miniPCIe WiFi 12+6Pin Adapter for Broadcom<br/>
 OpenCore-Debug EFI for ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1605/1715 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/OC105-DEBUG_ASUS-ROG-CH-X870E-X_BIOS-1605-1715_V1.0_NoSN.zip)<br />
 
 ----------------------------------------------------------------------------------------------------------------------
-## <ins>Kernal Extensions:</ins>
+## <ins>Kernel Extensions:</ins>
 
 Lilu _by acidanthera_ [here](https://github.com/acidanthera/Lilu)<br />
 WhateverGreen _by acidanthera_ [here](https://github.com/acidanthera/WhateverGreen)<br />
