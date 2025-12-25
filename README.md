@@ -196,4 +196,5 @@ About-This-Hack _by 0xCUB3_ [here](https://github.com/2009-Nissan-Cube/About-Thi
 ----------------------------------------------------------------------------------------------------------------------
 If anyone finds mistakes or has suggestions for improvement,<br/>
 please let me now, thank you :)
+[AMD-OSX Forum](https://forum.amd-osx.com/threads/success-asus-rog-crosshair-x870e-extreme-ryzen-9-7950x-rx-6950xt-dual-boot-macos-ventura-windows-11.6048/#post-42959)<br />
 ----------------------------------------------------------------------------------------------------------------------
