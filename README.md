@@ -13,19 +13,20 @@ Link to the manufacturer's BIOS & Firmware page [here](https://rog.asus.com/moth
 ### Version 1605 MOD (2025/07/22)<br/>
 - Removed the ASUS ROG Boot Splash Screen / replaced with a plain/black one<br/>
 
-Guide:<br/>
+Guide to modify Boot-Logo:<br/>
 1.) Download UEFITool_0.28.0_win, run UEFITool.exe<br/>
 2.) Ctrl+O (open), select BIOS file you hopefully already have somewhere ready<br/>
 3.) Ctrl+F (search), select tab labeled "GUID", input 7BB28B99-61BB-11D5-9A5D-0090273FC14D<br/>
-4.) Double-click on the first of three listed "7BB28B99-61BB-11D5-9A5D-0090273FC14D"<br/>
-5.) Press on plus sign next to 7BB28B99-61BB-11D5-9A5D-0090273FC14D, then again on another<br/>
-6.) Right click on "Raw section" line, "Extract body..." and save<br/>
-7.) Rename the .raw file to .bmp<br/>
-8.) Edit the image and save it<br/>
-9.) Rename the image extension to .raw<br/>
-10.) Right click on "Raw section" line, "Replace body..." and select the .raw file<br/>
-11.) Ctrl+S to save the BIOS<br/>
-12.) Done!<br/>
+4.) Double-click on the first of three listed GUID pattern "7BB28B99-61BB-11D5-9A5D-0090273FC14D" in Messages<br/>
+5.) Press on plus sign next to "7BB28B99-61BB-11D5-9A5D-0090273FC14D" (File/Freeform/Logo.bmp)<br/>
+6.) Press on plus sign next to "EE4E5898-3914-4259-9D6E-DC7BD79403CF" (Section/GUID defined)<br/>
+7.) Right click on "Raw section" (Section/Raw) line, "Extract body..." and save it as Logo.raw<br/>
+8.) Rename the Logo.raw file to Logo.bmp<br/>
+9.) Edit the image and save it<br/>
+10.) Rename the image extension to .raw<br/>
+11.) Right click on "Raw section" line, "Replace body..." and select the new Logo.raw file<br/>
+12.) Ctrl+S to save the BIOS<br/>
+13.) Done!<br/>
 
 :white_check_mark: (macOS Ventura/Sequoia) *(OpenCore AMD-Patches + ACPI-Patches by CorpGhost)*
 
