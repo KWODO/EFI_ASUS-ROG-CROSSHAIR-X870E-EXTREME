@@ -42,7 +42,7 @@ Guide:<br/>
 ### Realtek 5Gbit Network Adapter (RTL8126)<br />
 `VEN_10EC&DEV_8126`<br />
 
-:white_check_mark: (macOS Ventura/Sequoia) *(SimpleRTK5.kext)
+:white_check_mark: (macOS Ventura/Sequoia)(SimpleRTK5.kext)
 https://github.com/laobamac/SimpleRTK5
 
 ### Aquantia/Marvell FastLinQ Edge 10Gbit Network Adapter (AQC113CS)<br/>
