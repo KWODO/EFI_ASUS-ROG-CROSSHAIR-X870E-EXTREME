@@ -43,18 +43,20 @@ Guide:<br/>
 `VEN_10EC&DEV_8126`<br />
 
 :white_check_mark: (macOS Ventura/Sequoia)<br/>
-(SimpleRTK5.kext)
+(SimpleRTK5.kext)<br/>
 https://github.com/laobamac/SimpleRTK5
 
 ### Aquantia/Marvell FastLinQ Edge 10Gbit Network Adapter (AQC113CS)<br/>
 `VEN_1D6A&DEV_04C0`<br />
 
-:white_check_mark: (macOS Ventura/Sequoia) *(OpenCore Kernel-Quirk + Kernel-Patches "Set 1")*
+:white_check_mark: (macOS Ventura/Sequoia)<br/>
+*(OpenCore Kernel-Quirk + Kernel-Patches "Set 1")*
 
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>WIFI:</ins>
 ### MediaTek Wi-Fi 7 BT5.3 (MT7927)<br/>
-:x: (not supported in macOS) **(removed from mainboard)**
+:x: (not supported in macOS)<br/>
+**(removed from mainboard)**
 
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>USB-MAPPING:</ins>
