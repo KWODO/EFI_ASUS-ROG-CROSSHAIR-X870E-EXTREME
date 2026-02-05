@@ -40,7 +40,10 @@ Guide:<br/>
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>ETHERNET:</ins>
 ### Realtek 5Gbit Network Adapter (RTL8126)<br />
-:x: (not supported in macOS) **(Disabled in BIOS)**
+`VEN_10EC&DEV_8126`<br />
+
+:white_check_mark: (macOS Ventura/Sequoia) *(SimpleRTK5.kext)
+https://github.com/laobamac/SimpleRTK5
 
 ### Aquantia/Marvell FastLinQ Edge 10Gbit Network Adapter (AQC113CS)<br/>
 `VEN_1D6A&DEV_04C0`<br />
