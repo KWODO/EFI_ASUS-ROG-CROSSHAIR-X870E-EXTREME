@@ -39,7 +39,7 @@ Guide:<br/>
 
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>ETHERNET:</ins>
-### Realtek 5Gbit Network Adapter (RTL8126)<br />
+### Realtek 2.5/5Gbit Network Adapter (RTL8126A)<br />
 `VEN_10EC&DEV_8126`<br />
 
 :white_check_mark: (macOS Ventura/Sequoia)<br/>
@@ -98,7 +98,7 @@ https://github.com/laobamac/SimpleRTK5
 iGPU AMD Radeon Graphics<br/>
 :x: (not supported in macOS) **(disabled in BIOS)**
 
-*¹ CPU is set to PBO-Enhanced (Level 2 80°C 170W) (optional BIOS setting)
+*¹ CPU is set to PBO-Enhanced (Level 1 90°C) (optional BIOS setting)
 
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>RAM:</ins>
