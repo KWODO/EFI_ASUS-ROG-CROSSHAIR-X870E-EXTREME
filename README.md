@@ -196,6 +196,8 @@ ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1605 MOD (CAP-File) _by KWODO_ [here](ht
 ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1715 MOD (CAP-File) _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ASUS-ROG-CH-X870E-X-BIOS-1715-MOD.CAP.zip)<br />
 <sup>My BIOS-Settings (TXT + CMO-File) for BIOS 1605/1715 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/BIOS-1605-1715_Settings_KWODO_ASUS-ROG-CH-X870E-X_V2.zip)</sup><br />
 
+Widgetter - Custom Desktop for Mac - German Language MOD (Localization-File) _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/Widgetter-v235_GermanLocalization.zip)</sup><br />
+
 ----------------------------------------------------------------------------------------------------------------------
 ### <ins>USEFUL UTILITIES:</ins>
 
