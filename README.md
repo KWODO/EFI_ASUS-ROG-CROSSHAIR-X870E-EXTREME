@@ -216,9 +216,7 @@ ProperTree _by CorpNewt_ [here](https://github.com/corpnewt/ProperTree)<br />
 IORegistryExplorer _by vulgo_ [here](https://github.com/vulgo/IORegistryExplorer)<br />
 Hackintool _by benbaker76_ [here](https://github.com/benbaker76/Hackintool)<br />
 Hackintool Updated PCI-IDs for ASUS ROG CROSSHAIR X870E EXTREME _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/Hackintool_PCI-IDS-Update_ASUS-ROG-CH-X870E-X_V2.zip)<br />
-OCAuxiliaryTools OCAT _by ic005k_ [here](https://github.com/ic005k/OCAuxiliaryTools)<br />
-OpenCore Configurator _by mackie1000projects_ [here](https://mackie100projects.altervista.org/)<br />
-About-This-Hack _by 0xCUB3_ [here](https://github.com/2009-Nissan-Cube/About-This-Hack)<br />
+
 
 ----------------------------------------------------------------------------------------------------------------------
 If anyone finds mistakes or has suggestions for improvement,<br/>
