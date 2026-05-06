@@ -5,11 +5,10 @@ Link to the manufacturer's page [here](https://rog.asus.com/motherboards/rog-cro
 
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>BIOS:</ins>
-### Version 1605 (2025/07/22)<br/>
 ### Version 1715 (2025/09/25)<br/>
 Link to the manufacturer's BIOS & Firmware page [here](https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-extreme/helpdesk_bios/)
 
-:white_check_mark: (macOS Ventura/Sequoia) *(OpenCore AMD-Patches + ACPI-Patches by CorpGhost)*
+:white_check_mark: (macOS 13-15) *(OpenCore AMD-Patches + ACPI-Patches by CorpGhost)*
 
 ### BIOS MOD<br/>
 - Removed the ASUS ROG Boot Splash Screen / replaced with a plain/black one<br/>
@@ -35,21 +34,21 @@ Guide:<br/>
 `VID_0B05&PID_1B7C`<br />
 
 :x: (OpenCore: AudioDxe.efi) *(USB-Audio not supported)*<br />
-:white_check_mark: (macOS Ventura/Sequoia: native) `rear: spdif-out, line-out, mic-in` `front: line-out, mic-in`
+:white_check_mark: (macOS 13-15,26: native) `rear: spdif-out, line-out, mic-in` `front: line-out, mic-in`
 
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>ETHERNET:</ins>
 ### Realtek 5Gbit Network Adapter (RTL8126A)<br />
 `VEN_10EC&DEV_8126`<br />
 
-:white_check_mark: (macOS Ventura/Sequoia)<br/>
+:white_check_mark: (macOS 13-15,26)<br/>
 (SimpleRTK5.kext)<br/>
 https://github.com/laobamac/SimpleRTK5
 
 ### Aquantia/Marvell FastLinQ Edge 10Gbit Network Adapter (AQC113CS)<br/>
 `VEN_1D6A&DEV_04C0`<br />
 
-:white_check_mark: (macOS Ventura/Sequoia)<br/>
+:white_check_mark: (macOS 13-15,26)<br/>
 *(OpenCore Kernel-Quirk + Kernel-Patches "Set 1")*
 
 ----------------------------------------------------------------------------------------------------------------------
@@ -61,19 +60,19 @@ https://github.com/laobamac/SimpleRTK5
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>USB-MAPPING:</ins>
 
-:white_check_mark: (macOS Ventura/Sequoia)<br/>
-(USBToolBox.kext + UTBMap_ASUS-ROG-CH-X870E-X.kext) or (USBMap_ASUS-ROG-CH-X870E-X.kext)<br/>
+:white_check_mark: (macOS 13-15)<br/>
+(USBToolBox.kext + UTBMap_ASUS-ROG-CH-X870E-X.kext)<br/>
 
 1x Front USB Type-C Port with switch (USB3.2)<br/>
 `U20G_C6 (1)`<br/>
 
-4x Front USB Type-A Ports (USB3.0)<br/>
+4x Front USB Type-A Ports (USB2.0/USB3.0)<br/>
 `U5G_E1234 (18)`<br/>
 
 2x Rear USB Type-C Port with switch (USB3.1)<br/>
 `U10G_C23/U10G_C22 (14)`<br/>
 
-8x Rear USB Type-A Ports (USB2.0)<br/>
+8x Rear USB Type-A Ports (USB2.0/USB3.0)<br/>
 `U10G_3/U10G_4/U10G_18 (2)` `U10G_19 (11)` `U10G_20 (13)` `U10G_9/U10G_8/U10G_21 (5)`<br/>
 
 1x Internal USB 2.0 Port for Bluetooth<br/>
@@ -93,7 +92,7 @@ https://github.com/laobamac/SimpleRTK5
 
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>CPU:</ins>
-### AMD Ryzen 9 7950X 4.5 GHz AM5*¹
+### AMD Ryzen 9 9950X3D 4.3 GHz AM5*¹
 
 iGPU AMD Radeon Graphics<br/>
 :x: (not supported in macOS) **(disabled in BIOS)**
@@ -114,15 +113,15 @@ KF552C40BBK4-128
 ### Sapphire TOXIC AMD Radeon RX 6950 XT Limited Edition 16 GB<br/>
 `VEN_1002&DEV_73A5`<br/>
 
-:white_check_mark: (macOS Ventura/Sequoia) *(whatevergreen.kext + Device Properties GPU-SPOOF)*
+:white_check_mark: (macOS 13-15,26) *(whatevergreen.kext + Device Properties GPU-SPOOF)*
 
 PCIe-Slot1 `PCIEX16(G5)_1 (A)`
 
 ### Broadcom BCM94360CD 802.11ac Wireless Network Adapter with Bluetooth 4.0<br/>
 `VEN_14E4&DEV_43A0`<br/>
 
-:white_check_mark: (macOS Ventura: native)<br/>
-:white_check_mark: (macOS Sequoia: OCLP)
+:white_check_mark: (macOS 13: native)<br/>
+:white_check_mark: (macOS 14-15: OCLP)
 
 M.2 NGFF Slot `M.2(WIFI) (15)`<br/>
 
@@ -134,9 +133,11 @@ miniPCIe WiFi 12+6Pin Adapter for Broadcom<br/>
 
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>BOOTLOADER:</ins>
-### OpenCore v1.0.6<br />
+### OpenCore v1.0.7<br />
 
-OpenCore-Debug EFI for ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1605/1715 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/OC106-DEBUG_ASUS-ROG-CH-X870E-X_BIOS-1605-1715_V1.1_NoSN.zip)<br />
+OpenCore-Release EFI V2 for ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1715 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/OC107-REL_ASUS-ROG-CH-X870E-X_BIOS-1715_V2.0_NoSN.zip)<br />
+
+OpenCore-Debug EFI V2 for ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1715 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/OC107-DBG_ASUS-ROG-CH-X870E-X_BIOS-1715_V2.0_NoSN.zip)<br />
 
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>Kernel Extensions:</ins>
@@ -179,9 +180,10 @@ OpenCore Bootloader _by Acidanthera_ [here](https://github.com/acidanthera/OpenC
 AMD-Vanilla-Patches _by CorpNewt_ [here](https://github.com/corpnewt/AMDVanillaPatches)<br />
 
 SSDTTime _by CorpNewt_ [here](https://github.com/corpnewt/SSDTTime)<br />
-<sup>SSDTTime Results for ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1605 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/SSDTTime_Results_ASUS-ROG-CH-X870E-X_BIOS-1605.zip)</sup><br />
 
 ACPI-Patches for ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1605/1715 _by CorpGhost_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ACPI-Patches_ASUS-ROG-CH-X870E-X_BIOS-1605-1715_by-CorpGhost.zip)<br />
+
+ACPI-Patches for ASUS ROG CROSSHAIR X870E EXTREME - BIOS 2202/2301 _by CorpGhost_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ACPI-Patches_ASUS-ROG-CH-X870E-X_BIOS-2202-2301_by-CorpGhost.zip)<br />
 
 MmioDevirt _by CorpNewt_ [here](https://github.com/corpnewt/MmioDevirt)<br />
 
@@ -192,9 +194,8 @@ Aquantia-macOS-Patches _by CaseySJ_ [here](https://github.com/CaseySJ/Aquantia-m
 
 UEFITool v0.28.0 WIN/MAC _by LongSoft_ [here](https://github.com/LongSoft/UEFITool/releases/tag/0.28.0)<br />
 
-ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1605 MOD (CAP-File) _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ASUS-ROG-CH-X870E-X-BIOS-1605-MOD.CAP.zip)<br />
 ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1715 MOD (CAP-File) _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ASUS-ROG-CH-X870E-X-BIOS-1715-MOD.CAP.zip)<br />
-<sup>My BIOS-Settings (TXT + CMO-File) for BIOS 1605/1715 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/BIOS-1605-1715_Settings_KWODO_ASUS-ROG-CH-X870E-X_V2.zip)</sup><br />
+<sup>My BIOS-Settings V3 (TXT + CMO-File) for BIOS 1715 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/BIOS1715_Settings_KWODO_ASUS-ROG-CH-X870E-X_V3.zip)</sup><br />
 
 Widgetter - Custom Desktop for Mac - German Language MOD (Localization-File) _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/Widgetter-v235_GermanLocalization.zip)</sup><br />
 
