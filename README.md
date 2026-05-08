@@ -63,6 +63,9 @@ https://github.com/laobamac/SimpleRTK5
 :white_check_mark: (macOS 13-15)<br/>
 (USBToolBox.kext + UTBMap_ASUS-ROG-CH-X870E-X.kext)<br/>
 
+:white_check_mark: (macOS 26)<br/>
+(USBToolBox.kext + UTBMap_ASUS-ROG-CH-X870E-X_macOS26.kext)<br/>
+
 1x Front USB Type-C Port with switch (USB3.2)<br/>
 `U20G_C6 (1)`<br/>
 
