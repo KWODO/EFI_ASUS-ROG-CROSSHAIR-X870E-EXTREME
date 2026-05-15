@@ -73,7 +73,7 @@ https://github.com/laobamac/SimpleRTK5
 `U5G_E1234 (18)`<br/>
 
 2x Rear USB Type-C Port with switch (USB3.1)<br/>
-`U10G_C23/U10G_C22 (14)`<br/>
+`U10G_C23 (12)/U10G_C22 (14)`<br/>
 
 8x Rear USB Type-A Ports (USB2.0/USB3.0)<br/>
 `U10G_3/U10G_4/U10G_18 (2)` `U10G_19 (11)` `U10G_20 (13)` `U10G_9/U10G_8/U10G_21 (5)`<br/>
@@ -191,7 +191,7 @@ ACPI-Patches for ASUS ROG CROSSHAIR X870E EXTREME - BIOS 2202/2301 _by CorpGhost
 MmioDevirt _by CorpNewt_ [here](https://github.com/corpnewt/MmioDevirt)<br />
 
 USBToolBox _by Dhinak G_ [here](https://github.com/USBToolBox/tool)<br />
-<sup>USBToolBox Settings+Mapping for ASUS ROG CROSSHAIR X870E EXTREME _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/USBToolBox-Settings-Mapping_ASUS-ROG-CH-X870E-X.zip)</sup><br />
+<sup>USBToolBox Settings+Mapping for ASUS ROG CROSSHAIR X870E EXTREME _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/USBToolBox-Settings-Mapping_ASUS-ROG-CH-X870E-X_V2.zip)</sup><br />
 
 Aquantia-macOS-Patches _by CaseySJ_ [here](https://github.com/CaseySJ/Aquantia-macOS-Patches)<br />
 
