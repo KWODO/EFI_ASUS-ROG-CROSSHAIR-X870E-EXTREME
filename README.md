@@ -100,7 +100,7 @@ https://github.com/laobamac/SimpleRTK5
 iGPU AMD Radeon Graphics<br/>
 :x: (not supported in macOS) **(disabled in BIOS)**
 
-*¹ CPU is set to PBO-Enhanced (Level 1 90°C) (optional BIOS setting)
+*¹ CPU is set to PBO-Enhanced (Level 1 90°C) (optional BIOS setting)<br/>
 *² Curve Optimizer (All CCDs) UV-30
 
 ----------------------------------------------------------------------------------------------------------------------
