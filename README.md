@@ -157,7 +157,7 @@ AppleMCEReporterDisabler _by XLNCs_ [here](https://github.com/acidanthera/bugtra
 AMFIPass _by Dhinak G_ [here](https://github.com/kaoskinkae/AMFIPass)<br />
 IOSkywalkFamily (from macOS Sonoma 14.4)<br />
 IO80211FamilyLegacy (from macOS Sonoma 14.4)<br />
-SMCProcessorAMD _by macos86_ [here](https://github.com/macos86/SMCProcessorAMD) (only up to macOS 10.13-14)<br />
+SMCProcessorAMD _by macos86_ [here](https://github.com/macos86/SMCProcessorAMD) (macOS 10.13-14)<br />
 SMCAMDProcessor _by DrogaBox_ [here](https://github.com/DrogaBox/SMCAMDProcessor-personal) (macOS 15+26)<br />
 
 ----------------------------------------------------------------------------------------------------------------------
