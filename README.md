@@ -204,7 +204,7 @@ ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1715 MOD (CAP-File) _by KWODO_ [here](ht
 
 Widgetter - Custom Desktop for Mac - German Language MOD (Localization-File) _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/Widgetter-v235_GermanLocalization.zip)</sup><br />
 
-ZeroRPMBuilder - AMD RDNA2 Zero RPM and Fan 35°C Solution for Hackintosh _by MaLdOn_ [here]([https://github.com/CaseySJ/Aquantia-macOS-Patches](https://olarila.com/topic/46304-zerorpmbuilder-amd-rdna2-zero-rpm-and-fan-35-%C2%B0c-solution-for-hackintosh/)<br />
+ZeroRPMBuilder - AMD RDNA2 Zero RPM and Fan 35°C Solution for Hackintosh _by MaLdOn_ [here](https://olarila.com/topic/46304-zerorpmbuilder-amd-rdna2-zero-rpm-and-fan-35-%C2%B0c-solution-for-hackintosh/)<br />
 
 ----------------------------------------------------------------------------------------------------------------------
 ### <ins>USEFUL UTILITIES:</ins>
