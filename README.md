@@ -8,7 +8,7 @@ Link to the manufacturer's page [here](https://rog.asus.com/motherboards/rog-cro
 ### Version 1715 (2025/09/25)<br/>
 Link to the manufacturer's BIOS & Firmware page [here](https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-extreme/helpdesk_bios/)
 
-:white_check_mark: (macOS 13-15) *(OpenCore AMD-Patches + ACPI-Patches by CorpGhost)*
+:white_check_mark: (macOS 13-15,26) *(OpenCore AMD-Vanilla-Patches + ACPI-Patches by CorpGhost)*
 
 ### BIOS MOD<br/>
 - Removed the ASUS ROG Boot Splash Screen / replaced with a plain/black one<br/>
@@ -95,12 +95,13 @@ https://github.com/laobamac/SimpleRTK5
 
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>CPU:</ins>
-### AMD Ryzen 9 9950X3D 4.3 GHz AM5*¹
+### AMD Ryzen 9 9950X3D 4.3 GHz AM5*¹²
 
 iGPU AMD Radeon Graphics<br/>
 :x: (not supported in macOS) **(disabled in BIOS)**
 
 *¹ CPU is set to PBO-Enhanced (Level 1 90°C) (optional BIOS setting)
+*² Curve Optimizer (All CCDs) UV-30
 
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>RAM:</ins>
@@ -154,9 +155,10 @@ NVMeFix _by acidanthera_ [here](https://github.com/acidanthera/NVMeFix)<br />
 USBToolBox _by Dhinak G_ [here](https://github.com/USBToolBox/kext)<br />
 AppleMCEReporterDisabler _by XLNCs_ [here](https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip)<br />
 AMFIPass _by Dhinak G_ [here](https://github.com/kaoskinkae/AMFIPass)<br />
-IOSkywalkFamily (from macOS Sonoma 14.4<br />
-IO80211FamilyLegacy (from macOS Sonoma 14.4<br />
-SMCProcessorAMD _by macos86_ [here](https://github.com/macos86/SMCProcessorAMD) (only up to macOS Sonoma 14.x)<br />
+IOSkywalkFamily (from macOS Sonoma 14.4)<br />
+IO80211FamilyLegacy (from macOS Sonoma 14.4)<br />
+SMCProcessorAMD _by macos86_ [here](https://github.com/macos86/SMCProcessorAMD) (only up to macOS Ventura 13.7.8)<br />
+SMCAMDProcessor _by DrogaBox_ [here]([https://github.com/macos86/SMCProcessorAMD](https://github.com/DrogaBox/SMCAMDProcessor-personal) (macOS 14-26)<br />
 
 ----------------------------------------------------------------------------------------------------------------------
 ### <ins>HINTS:</ins>
@@ -201,6 +203,8 @@ ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1715 MOD (CAP-File) _by KWODO_ [here](ht
 <sup>My BIOS-Settings V3 (TXT + CMO-File) for BIOS 1715 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/BIOS1715_Settings_KWODO_ASUS-ROG-CH-X870E-X_V3.zip)</sup><br />
 
 Widgetter - Custom Desktop for Mac - German Language MOD (Localization-File) _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/Widgetter-v235_GermanLocalization.zip)</sup><br />
+
+ZeroRPMBuilder - AMD RDNA2 Zero RPM and Fan 35°C Solution for Hackintosh _by MaLdOn_ [here]([https://github.com/CaseySJ/Aquantia-macOS-Patches](https://olarila.com/topic/46304-zerorpmbuilder-amd-rdna2-zero-rpm-and-fan-35-%C2%B0c-solution-for-hackintosh/)<br />
 
 ----------------------------------------------------------------------------------------------------------------------
 ### <ins>USEFUL UTILITIES:</ins>
