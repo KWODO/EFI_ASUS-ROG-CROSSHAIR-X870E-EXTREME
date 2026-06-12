@@ -224,7 +224,9 @@ ProperTree _by CorpNewt_ [here](https://github.com/corpnewt/ProperTree)<br />
 IORegistryExplorer _by vulgo_ [here](https://github.com/vulgo/IORegistryExplorer)<br />
 Hackintool _by benbaker76_ [here](https://github.com/benbaker76/Hackintool)<br />
 Hackintool Updated PCI-IDs for ASUS ROG CROSSHAIR X870E EXTREME _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/Hackintool_PCI-IDS-Update_ASUS-ROG-CH-X870E-X_V2.zip)<br />
-
+iCpu _by MaLdOn_ [here](https://olarila.com/topic/46173-icpu-for-macos-advanced-hardware-information-smbios-memory-graphics-and-benchmark-utility/)<br />
+iGpu _by MaLdOn_ [here](https://olarila.com/topic/46257-igpu-%E2%80%93-gpu-information-and-sensor-monitor-for-macos/)<br />
+SMCReader _by MaLdOn_ [here](https://olarila.com/topic/46196-smcreader-macos-sensor-monitor-for-hackintosh-intel-amd-and-apple-silicon/)<br />
 
 ----------------------------------------------------------------------------------------------------------------------
 If anyone finds mistakes or has suggestions for improvement,<br/>
