@@ -101,7 +101,7 @@ iGPU AMD Radeon Graphics<br/>
 :x: (not supported in macOS) **(disabled in BIOS)**
 
 *¹ CPU is set to PBO-Enhanced (Level 1 90°C) (optional BIOS setting)<br/>
-*² Curve Optimizer (All CCDs) UV-30
+*² Curve Optimizer (All CCDs) UV-30 (optional BIOS setting)<br/>
 
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>RAM:</ins>
@@ -109,7 +109,7 @@ iGPU AMD Radeon Graphics<br/>
 
 KF552C40BBK4-128
 
-(DOCP I configuration for 4 modules in dual channel running @ 4800 MHz / CL 40-40-40-80 / 1.25v)
+(DOCP I configuration for 4 modules in dual channel running @ 4800 MHz / CL 40-40-40-80 / 1.25v) (optional BIOS setting)<br/>
 
 ----------------------------------------------------------------------------------------------------------------------
 
@@ -136,29 +136,22 @@ miniPCIe WiFi 12+6Pin Adapter for Broadcom<br/>
 ![https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/miniPCIe_BCM94630_AdapterCard.png](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/miniPCIe_BCM94630_AdapterCard.png)
 
 ----------------------------------------------------------------------------------------------------------------------
-## <ins>BOOTLOADER:</ins>
-### OpenCore v1.0.7<br />
-
-OpenCore-Release EFI V2 for ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1715 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/OC107-REL_ASUS-ROG-CH-X870E-X_BIOS-1715_V2.0_NoSN.zip)<br />
-
-OpenCore-Debug EFI V2 for ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1715 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/OC107-DBG_ASUS-ROG-CH-X870E-X_BIOS-1715_V2.0_NoSN.zip)<br />
-
-----------------------------------------------------------------------------------------------------------------------
 ## <ins>Kernel Extensions:</ins>
 
 Lilu _by acidanthera_ [here](https://github.com/acidanthera/Lilu)<br />
-WhateverGreen _by acidanthera_ [here](https://github.com/acidanthera/WhateverGreen)<br />
 VirtualSMC _acidanthera_ [here](https://github.com/acidanthera/VirtualSMC)<br />
+SMCAMDProcessor _by DrogaBox_ [here](https://github.com/DrogaBox/SMCAMDProcessor-personal) (macOS 15+26)<br />
+SMCProcessorAMD _by macos86_ [here](https://github.com/macos86/SMCProcessorAMD) (macOS 10.13-14)<br />
+WhateverGreen _by acidanthera_ [here](https://github.com/acidanthera/WhateverGreen)<br />
 FeatureUnlock _acidanthera_ [here](https://github.com/acidanthera/FeatureUnlock)<br />
 RestrictEvents _by acidanthera_ [here](https://github.com/acidanthera/RestrictEvents)<br />
 NVMeFix _by acidanthera_ [here](https://github.com/acidanthera/NVMeFix)<br />
 USBToolBox _by Dhinak G_ [here](https://github.com/USBToolBox/kext)<br />
 AppleMCEReporterDisabler _by XLNCs_ [here](https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip)<br />
+IntelMKLFixup _by Carnations-Botanica_ [here](https://github.com/Carnations-Botanica/IntelMKLFixup)<br />
 AMFIPass _by Dhinak G_ [here](https://github.com/kaoskinkae/AMFIPass)<br />
 IOSkywalkFamily (from macOS Sonoma 14.4)<br />
 IO80211FamilyLegacy (from macOS Sonoma 14.4)<br />
-SMCProcessorAMD _by macos86_ [here](https://github.com/macos86/SMCProcessorAMD) (macOS 10.13-14)<br />
-SMCAMDProcessor _by DrogaBox_ [here](https://github.com/DrogaBox/SMCAMDProcessor-personal) (macOS 15+26)<br />
 
 ----------------------------------------------------------------------------------------------------------------------
 ### <ins>HINTS:</ins>
