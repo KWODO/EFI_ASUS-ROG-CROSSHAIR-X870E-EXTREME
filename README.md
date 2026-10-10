@@ -10,7 +10,7 @@ Link to the manufacturer's BIOS & Firmware page [here](https://rog.asus.com/moth
 
 :white_check_mark: (macOS 13-15,26) *(OpenCore AMD-Vanilla-Patches + ACPI-Patches by CorpGhost)*
 
-### BIOS MOD<br/>
+### BIOS MOD (optional)<br/>
 - Removed the ASUS ROG Boot Splash Screen / replaced with a plain/black one<br/>
 
 Guide:<br/>
@@ -105,11 +105,11 @@ iGPU AMD Radeon Graphics<br/>
 
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>RAM:</ins>
-### Kingston FURY Beast DDR5-5200 MHz 288-Pin 128 GB Kit (4 x 32 GB)
+### Kingston FURY Beast DDR5-5200 MHz 288-Pin 64 GB Kit (2 x 32 GB)
 
-KF552C40BBK4-128
+KF552C40BBK4-64
 
-(DOCP I configuration for 4 modules in dual channel running @ 4800 MHz / CL 40-40-40-80 / 1.25v) (optional BIOS setting)<br/>
+(DOCP I configuration for 2 modules in dual channel running @ 5600 MHz / CL 40-40-40-80 / VDD CDDQ 1.28v / FCLK 2000MHz / UCLK=MEMCLK) (optional BIOS setting)<br/>
 
 ----------------------------------------------------------------------------------------------------------------------
 
@@ -140,8 +140,9 @@ miniPCIe WiFi 12+6Pin Adapter for Broadcom<br/>
 
 Lilu _by acidanthera_ [here](https://github.com/acidanthera/Lilu)<br />
 VirtualSMC _acidanthera_ [here](https://github.com/acidanthera/VirtualSMC)<br />
-SMCAMDProcessor _by DrogaBox_ [here](https://github.com/DrogaBox/SMCAMDProcessor-personal) (macOS 15+26)<br />
-SMCProcessorAMD _by macos86_ [here](https://github.com/macos86/SMCProcessorAMD) (macOS 10.13-14)<br />
+SMCProcessorAMD _by macos86_ [here](https://github.com/macos86/SMCProcessorAMD) (macOS 10.13-12)<br />
+SMCAMDProcessor & AMD Power Gadget _by DrogaBox_ [here](https://github.com/DrogaBox/SMCAMDProcessor-personal) (macOS 13-15+26)<br />
+SMCAMDProcessor & RyzenStatus _by DrogaBox_ [here](https://github.com/DrogaBox/ryzenstatus-utils) (macOS 13-15)<br />
 WhateverGreen _by acidanthera_ [here](https://github.com/acidanthera/WhateverGreen)<br />
 FeatureUnlock _acidanthera_ [here](https://github.com/acidanthera/FeatureUnlock)<br />
 RestrictEvents _by acidanthera_ [here](https://github.com/acidanthera/RestrictEvents)<br />
@@ -217,9 +218,6 @@ ProperTree _by CorpNewt_ [here](https://github.com/corpnewt/ProperTree)<br />
 IORegistryExplorer _by vulgo_ [here](https://github.com/vulgo/IORegistryExplorer)<br />
 Hackintool _by benbaker76_ [here](https://github.com/benbaker76/Hackintool)<br />
 Hackintool Updated PCI-IDs for ASUS ROG CROSSHAIR X870E EXTREME _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/Hackintool_PCI-IDS-Update_ASUS-ROG-CH-X870E-X_V2.zip)<br />
-iCpu _by MaLdOn_ [here](https://olarila.com/topic/46173-icpu-for-macos-advanced-hardware-information-smbios-memory-graphics-and-benchmark-utility/)<br />
-iGpu _by MaLdOn_ [here](https://olarila.com/topic/46257-igpu-%E2%80%93-gpu-information-and-sensor-monitor-for-macos/)<br />
-SMCReader _by MaLdOn_ [here](https://olarila.com/topic/46196-smcreader-macos-sensor-monitor-for-hackintosh-intel-amd-and-apple-silicon/)<br />
 
 ----------------------------------------------------------------------------------------------------------------------
 If anyone finds mistakes or has suggestions for improvement,<br/>
