@@ -109,7 +109,7 @@ iGPU AMD Radeon Graphics<br/>
 
 KF552C40BBK4-64
 
-(DOCP I configuration for 2 modules in dual channel running @ 5600 MHz / CL 40-40-40-80 / VDD CDDQ 1.28v / FCLK 2000MHz / UCLK=MEMCLK) (optional BIOS setting)<br/>
+(DOCP I configuration for 2 modules in dual channel running @ 5600 MHz / CL 40-40-40-80 / VDD VDDQ 1.28v / FCLK 2000MHz / UCLK=MEMCLK) (optional BIOS setting)<br/>
 
 ----------------------------------------------------------------------------------------------------------------------
 
