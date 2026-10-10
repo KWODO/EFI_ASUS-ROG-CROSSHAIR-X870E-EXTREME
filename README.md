@@ -155,6 +155,12 @@ IOSkywalkFamily (from macOS Sonoma 14.4)<br />
 IO80211FamilyLegacy (from macOS Sonoma 14.4)<br />
 
 ----------------------------------------------------------------------------------------------------------------------
+### <ins>EFI:</ins>
+
+OpenCore v1.07 Release for ASUS ROG Crosshair X870E Extreme BIOS 1715 V7 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/OC107-REL_ASUS-ROG-CH-X870E-X_BIOS-1715_V7.0_NoSN.zip)<br />
+OpenCore v1.07 Debug for ASUS ROG Crosshair X870E Extreme BIOS 1715 V7 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/OC107-DBG_ASUS-ROG-CH-X870E-X_BIOS-1715_V7.0_NoSN.zip)<br />
+
+----------------------------------------------------------------------------------------------------------------------
 ### <ins>HINTS:</ins>
 
 - Generate your own "System Serial Number" and "System UUID" for this EFI-Files before using.<br/>
