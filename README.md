@@ -8,7 +8,7 @@ Link to the manufacturer's page [here](https://rog.asus.com/motherboards/rog-cro
 ### Version 1715 (2025/09/25)<br/>
 Link to the manufacturer's BIOS & Firmware page [here](https://rog.asus.com/motherboards/rog-crosshair/rog-crosshair-x870e-extreme/helpdesk_bios/)
 
-:white_check_mark: (macOS 13-15,26) *(OpenCore AMD-Vanilla-Patches + ACPI-Patches by CorpGhost)*
+:white_check_mark: (macOS 13-15+26) *(OpenCore AMD-Vanilla-Patches + ACPI-Patches by CorpGhost)*
 
 ### BIOS MOD (optional)<br/>
 - Removed the ASUS ROG Boot Splash Screen / replaced with a plain/black one<br/>
@@ -34,21 +34,21 @@ Guide:<br/>
 `VID_0B05&PID_1B7C`<br />
 
 :x: (OpenCore: AudioDxe.efi) *(USB-Audio not supported)*<br />
-:white_check_mark: (macOS 13-15,26: native) `rear: spdif-out, line-out, mic-in` `front: line-out, mic-in`
+:white_check_mark: (macOS 13-15+26: native) `rear: spdif-out, line-out, mic-in` `front: line-out, mic-in`
 
 ----------------------------------------------------------------------------------------------------------------------
 ## <ins>ETHERNET:</ins>
 ### Realtek 5Gbit Network Adapter (RTL8126A)<br />
 `VEN_10EC&DEV_8126`<br />
 
-:white_check_mark: (macOS 13-15,26)<br/>
+:white_check_mark: (macOS 13-15+26)<br/>
 (SimpleRTK5.kext)<br/>
 https://github.com/laobamac/SimpleRTK5
 
 ### Aquantia/Marvell FastLinQ Edge 10Gbit Network Adapter (AQC113CS)<br/>
 `VEN_1D6A&DEV_04C0`<br />
 
-:white_check_mark: (macOS 13-15,26)<br/>
+:white_check_mark: (macOS 13-15+26)<br/>
 *(OpenCore Kernel-Quirk + Kernel-Patches "Set 1")*
 
 ----------------------------------------------------------------------------------------------------------------------
@@ -117,7 +117,7 @@ KF552C40BBK4-64
 ### Sapphire TOXIC AMD Radeon RX 6950 XT Limited Edition 16 GB<br/>
 `VEN_1002&DEV_73A5`<br/>
 
-:white_check_mark: (macOS 13-15,26) *(whatevergreen.kext + Device Properties GPU-SPOOF)*
+:white_check_mark: (macOS 13-15+26) *(whatevergreen.kext + Device Properties GPU-SPOOF)*
 
 PCIe-Slot1 `PCIEX16(G5)_1 (A)`
 
@@ -200,7 +200,7 @@ Aquantia-macOS-Patches _by CaseySJ_ [here](https://github.com/CaseySJ/Aquantia-m
 UEFITool v0.28.0 WIN/MAC _by LongSoft_ [here](https://github.com/LongSoft/UEFITool/releases/tag/0.28.0)<br />
 
 ASUS ROG CROSSHAIR X870E EXTREME - BIOS 1715 MOD (CAP-File) _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/ASUS-ROG-CH-X870E-X-BIOS-1715-MOD.CAP.zip)<br />
-<sup>My BIOS-Settings V3 (TXT + CMO-File) for BIOS 1715 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/BIOS1715_Settings_KWODO_ASUS-ROG-CH-X870E-X_V3.zip)</sup><br />
+<sup>My BIOS-Settings V4 (TXT + CMO-File) for BIOS 1715 _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/BIOS1715_Settings_KWODO_ASUS-ROG-CH-X870E-X_V4.zip)</sup><br />
 
 Widgetter - Custom Desktop for Mac - German Language MOD (Localization-File) _by KWODO_ [here](https://github.com/KWODO/EFI_ASUS-ROG-CROSSHAIR-X870E-EXTREME/blob/main/Widgetter-v235_GermanLocalization.zip)</sup><br />
 
